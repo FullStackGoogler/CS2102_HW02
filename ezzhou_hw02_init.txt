@@ -1,0 +1,4 @@
+hw2/hw2_main/grader/test/GraderTests.java:106: error: laps has private access in SkiEvent
+    	skResultEmpty.laps = new LinkedList<Double>();
+    	             ^
+1 error

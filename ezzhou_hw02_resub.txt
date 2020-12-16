@@ -1,0 +1,100 @@
+ezzhou - hw2/hw2_resub
+
+Total Points Earned
+Theme: anyImprovement, Earned Points: 5.0, Total Available Points: 5.0
+Theme: bestRoundByType, Earned Points: 5.0, Total Available Points: 5.0
+Theme: finalScoreForAthlete, Earned Points: 5.0, Total Available Points: 5.0
+Theme: shootingDNF, Earned Points: 5.0, Total Available Points: 5.0
+Theme: pointsEarned ShootingResult, Earned Points: 5, Total Available Points: 5
+Theme: pointsEarned SkiingResult, Earned Points: 5, Total Available Points: 5
+
+Our tests on your code:
+Name: anyImprovement #1; Result: PASSED
+Theme: anyImprovement; Worth: 2.5; Earned: 2.5
+Description:
+ Testing anyImprovement() for when it returns false.
+
+Name: anyImprovement #2; Result: PASSED
+Theme: anyImprovement; Worth: 2.5; Earned: 2.5
+Description:
+ Testing anyImprovement() for when it returns true.
+
+Name: bestRoundByType #4; Result: PASSED
+Theme: bestRoundByType; Worth: 1; Earned: 1
+Description:
+ Testing bestRoundByType() where the lists are empty.
+
+Name: bestRoundByType #2; Result: PASSED
+Theme: bestRoundByType; Worth: 1.5; Earned: 1.5
+Description:
+ Testing bestRoundByType() where the specified type is 'prone'.
+
+Name: bestRoundByType #1; Result: PASSED
+Theme: bestRoundByType; Worth: 1.5; Earned: 1.5
+Description:
+ Testing bestRoundByType() where the specified type is 'standing'.
+
+Name: bestRoundByType #3; Result: PASSED
+Theme: bestRoundByType; Worth: 1; Earned: 1
+Description:
+ Testing bestRoundByType() where for each type, the rounds are equal.
+
+Name: finalScoreForAthlete #3; Result: PASSED
+Theme: finalScoreForAthlete; Worth: 1.5; Earned: 1.5
+Description:
+ Testing finalScoreForAthlete() where the athlete is at the bottom of the list.
+
+Name: finalScoreForAthlete #2; Result: PASSED
+Theme: finalScoreForAthlete; Worth: 1.5; Earned: 1.5
+Description:
+ Testing finalScoreForAthlete() where the athlete is in the middle of the list.
+
+Name: finalScoreForAthlete #1; Result: PASSED
+Theme: finalScoreForAthlete; Worth: 2; Earned: 2
+Description:
+ Testing finalScoreForAthlete() where the athlete is at the top of the list.
+
+Name: shootingDNF #1; Result: PASSED
+Theme: shootingDNF; Worth: 2.5; Earned: 2.5
+Description:
+ Testing shootingDNF() where the returned list is empty.
+
+Name: shootingDNF #2; Result: PASSED
+Theme: shootingDNF; Worth: 2.5; Earned: 2.5
+Description:
+ Testing shootingDNF() where the returned list is not empty.
+
+Name: pointsEarned ShootingResult #1; Result: PASSED
+Theme: pointsEarned ShootingResult; Worth: 2; Earned: 2
+Description:
+ Testing revised pointEarned() method in ShootingResult
+
+Name: pointsEarned ShootingResult #4; Result: PASSED
+Theme: pointsEarned ShootingResult; Worth: 1; Earned: 1
+Description:
+ Testing revised pointEarned() method in ShootingResult with edge case of empty list.
+
+Name: pointsEarned ShootingResult #3; Result: PASSED
+Theme: pointsEarned ShootingResult; Worth: 1; Earned: 1
+Description:
+ Testing revised pointEarned() method in ShootingResult with edge case of all targets hit.
+
+Name: pointsEarned ShootingResult #2; Result: PASSED
+Theme: pointsEarned ShootingResult; Worth: 1; Earned: 1
+Description:
+ Testing revised pointEarned() method in ShootingResult with edge case of 0 targets hit.
+
+Name: pointsEarned SkiingResult #1; Result: PASSED
+Theme: pointsEarned SkiingResult; Worth: 2; Earned: 2
+Description:
+ Testing revised pointsEarned() method in SkiingResult.
+
+Name: pointsEarned SkiingResult #3; Result: PASSED
+Theme: pointsEarned SkiingResult; Worth: 1; Earned: 1
+Description:
+ Testing revised pointsEarned() method in SkiingResult where list is empty.
+
+Name: pointsEarned SkiingResult #2; Result: PASSED
+Theme: pointsEarned SkiingResult; Worth: 2; Earned: 2
+Description:
+ Testing revised pointsEarned() method in SkiingResult where lap times are 0.
